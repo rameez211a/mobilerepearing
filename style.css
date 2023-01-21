@@ -1,0 +1,1220 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+/* == Top == */
+.logo{
+    width: 55px;
+    height: 55px;
+}
+.top-section #top-main-row{
+transform: translateY(20px);
+}
+#top-main-row .span-1{
+    font-size: 16px;
+}
+#top-main-row .span-2{
+    font-weight: 500;
+    font-size: 15px;
+}
+.top-section .fa{
+    font-size: 35px;
+    color: #0590ff;
+    padding-top: 5px;
+}
+.top-p1{  
+    margin-left: 10px;
+    font-size: 18px;
+}
+#logo-div{
+    transform: translateX(50px);
+    width: 40%;
+}
+#logo-div .title{
+    font-weight: 500;
+    font-size: 30px;
+}  
+#logo-div .title-2{
+    font-size: 14px;
+    color: #666666;
+    transform: translateY(-25px);
+}
+/* == Top end == */
+
+/* == Navbar == */
+.navbar{
+    background-color: #0590ff;
+}
+.navbar ul li{
+    margin: 0 15px;
+    padding: 0 10px;
+}
+.navbar ul li a{
+    font-size: 15px;
+    font-weight: bold;
+}
+/* == Navbar end == */
+
+
+/* == Header Image == */
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/header-img.jpg);
+    width: 100%;
+    height: 77vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header h1{
+    letter-spacing: 2px;
+    font-size: 55px;
+    font-weight: 300;
+    color: white;
+}
+.header h2{
+    color: #0590ff;
+    font-weight: 300;
+}
+.header p{
+    width: 50%;
+    color: white;
+    font-weight: 300;
+}
+.header .content{
+    padding-top: 100px;
+}
+.header button{
+    margin-top: 5px;
+    padding: 12px 22px;
+    background-color: #0590ff;
+    color: white;
+    border: 1px solid #0590ff;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+.header button:hover{
+    color: white;
+    background: none;
+    border: 1px solid white;
+    transition: 0.3s;    
+}
+/* == Header Image end == */
+
+/* == Hit Counter == */
+.hit-counter{
+    margin-top: 150px;
+}
+.hit-counter .item{
+    padding: 20px 0;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: #0590ff;
+    color: white;
+}
+.hit-counter h1{
+    font-weight: 300;
+    font-size: 40px;
+}
+.hit-counter h2{
+    font-weight: 300;
+    font-size: 15px;
+}
+.hit-counter hr{
+    color: white;
+    width: 50px;
+    margin: 10px auto;
+}
+/* == Hit Counter end == */
+
+/* == About us == */
+#about-us{
+    margin-top: 170px;
+    padding: 0 80px;
+}
+#about-us h1{
+    font-weight: 300;
+}
+#about-us .p-1{
+    width: 93%;
+    font-size: 19px;
+}
+#about-us .p-2{
+    font-size: 16px;
+    font-weight: 200;
+    transform: translateX(-4px);
+}
+#about-us .p-3{
+    font-weight: 300;
+    font-size: 26px;
+    transform: translateX(-15px);
+}
+#about-us img{
+    height: 400px;
+    float: right;
+}
+/* == About us end == */
+
+/* == Services == */
+.services{
+    margin-top: 130px;
+}
+.services .item-1{
+    padding-left: 120px;
+}
+.services .item-2{
+    padding-left: 110px;
+}
+.services .item-3{
+    padding-left: 110px;
+}
+.services .item-4{
+    padding-left: 110px;
+}
+.services h1{
+    text-align: center;
+    font-weight: 300;
+}
+.services p{
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    width: 80%;
+    margin: auto;
+}
+.services h2{
+    font-size: 23px;
+    font-weight: 400;
+}
+.services span{
+    color: #666666;
+    font-size: 16px;
+}
+.services .top-2{
+    margin-left: 30px;
+}
+.top-2 .para-div{
+    transform: translateY(-17px);
+}
+.services .row-2{
+    margin-top: 60px;
+}
+.services .fa{
+    color: #0590ff;
+    font-size: 50px;
+}
+.para-div{
+    width: 390px;
+}
+/* == Services end == */
+
+/* == Testimonials == */
+.testimonials{
+    margin-top: 180px;
+    width: 100%;
+    height: 580px;
+    background-color: #0590ff;
+}
+.testimonials #main-div{
+    display: flex;
+    justify-content: center;
+}
+.testimonials .div-1{
+    padding-left: 40px;
+}
+.testimonials .div-3{
+    padding-right: 40px;
+}
+.testimonials-title{
+    padding-top: 50px;
+    width: 70%;
+}
+.testimonials h1{
+    font-weight: 300;
+    color: white;
+
+}
+.testimonials p{
+    font-weight: 300;
+    color: white;
+}
+.testimonials .client{
+    width: 330px;
+    height: 330px;
+    background-color: white;
+}
+.client img{
+    margin-top: 40px;
+    width: 90px;
+    height: 90px;
+}
+.client h4{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 21px;
+}
+.client p{
+    color: black;
+    width: 80%;
+}
+.client h5{
+    color: #0590ff;
+}
+/* == Testimonials end == */
+
+/* == Team == */
+.team{
+    margin-top: 150px;
+}
+.team h1{
+    font-weight: 300;
+}
+.team h2{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0590ff;
+}
+.team h3{
+    transform: translateY(-9px);
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+}
+.team h4{
+    font-weight: 400;
+}
+.team i{
+    color: #0590ff;
+    font-size: 22px;
+}
+.team img{
+    width: 440px;
+    height: 400px;
+    margin-left: 90px;
+}
+.team .team-contact-sec{
+    margin-top: 30px;
+}
+.team .team-contact-sec .fa{
+    padding-right: 14px;
+}
+.team .team-contact-sec span{
+    font-size: 14px;
+}
+.team .team-social-sec{
+    margin-top: 30px;
+}
+.team .team-social-sec .fa{
+    margin: 0 3px;
+    padding: 9px 11px;
+    font-size: 22px;
+    border-radius: 50px;
+    color: #0590ff;
+    border: 1px solid #0590ff;
+}
+.team .team-social-sec .fa:hover{
+    transition: 0.5s;
+    background-color: #0590ff;
+    color: white;
+    border: 1px solid #0590ff;
+}
+.team-social-sec #facebook-icon{
+    padding: 9px 14px;
+}
+/* == Team end == */
+
+/* == Gallery == */
+.gallery-title{
+    margin-top: 150px;
+}
+.gallery-title h1{
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.gallery-container{
+    width: 100%;
+    margin: auto;
+}
+.subcontainer{
+    width: 90%;
+    margin: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    overflow-x: hidden;
+}
+.img{
+    width: 100%;
+    min-height: 275px;
+    background-position: center;
+    background-size: cover;
+}
+.img:hover{
+    transition: 3s;
+}
+.img:nth-child(1){
+    background-image: url(images/gallery-img-1.jpg);
+}
+.img:nth-child(1):hover{
+    background-image: linear-gradient(rgba(5,144,255, 0.1), rgba(5,144,255, 0.1)), url(images/gallery-img-1.jpg);
+}
+.img:nth-child(2){
+    background-image: url(images/gallery-img-2.jpg);
+}
+.img:nth-child(2):hover{
+    background-image: linear-gradient(rgba(5,144,255, 0.1), rgba(5,144,255, 0.1)), url(images/gallery-img-2.jpg);
+}
+.img:nth-child(3){
+    background-image: url(images/gallery-img-3.jpg);
+}
+.img:nth-child(3):hover{
+    background-image: linear-gradient(rgba(5,144,255, 0.1), rgba(5,144,255, 0.1)), url(images/gallery-img-3.jpg);
+}
+.img:nth-child(4){
+    background-image: url(images/gallery-img-4.jpg);
+}
+.img:nth-child(4):hover{
+    background-image: linear-gradient(rgba(5,144,255, 0.1), rgba(5,144,255, 0.1)), url(images/gallery-img-4.jpg);
+}
+.img:nth-child(5){
+    background-image: url(images/gallery-img-5.jpg);
+}
+.img:nth-child(5):hover{
+    background-image: linear-gradient(rgba(5,144,255, 0.1), rgba(5,144,255, 0.1)), url(images/gallery-img-5.jpg);
+}
+.img:nth-child(6){
+    background-image: url(images/gallery-img-6.jpg);
+}
+.img:nth-child(6):hover{
+    background-image: linear-gradient(rgba(5,144,255, 0.1), rgba(5,144,255, 0.1)), url(images/gallery-img-6.jpg);
+}
+/* == Gallery end == */
+
+/* == Pricing == */
+.pricing{
+    margin-top: 150px;
+}
+.pricing-title{
+    text-align: center;
+}
+.pricing-title h1{
+    font-weight: 300;
+}
+.pricing-title p{
+    font-size: 14px;
+    color: #666666;
+}
+/* == Pricing end == */
+
+/* == Get in touch == */
+.get-in-touch{
+    margin-top: 150px;
+    background-color: #0590ff;
+    height: 220px;
+    
+}
+.get-in-touch .row{
+    padding-top: 80px;
+}
+.get-in-touch .contact-div{
+    width: 90%;
+    margin: auto;
+}
+.get-in-touch  h1{
+    color: white;
+    font-weight: 300;
+}
+.get-in-touch button{
+    padding: 14px 55px;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    float: right;
+}
+.get-in-touch button:hover{
+    background-color: white;
+    color: #0590ff;
+    transition: 0.5s;
+}
+/* == Get in touch end == */
+
+/* == Contact us == */
+.contact-section{
+    margin-top: 150px;
+}
+.contact-section h1{
+    font-weight: 300;
+    text-align: center;
+}
+.contact-section p{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.contact-section h2{
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.contact-section .fa{
+    font-size: 40px;
+    color: #0590ff;
+}
+.contact-section .p-2{
+    color: #666666;
+    font-size: 14px;
+    width: 100%;
+}
+.contact-section-2{
+    margin-top: 100px;
+}
+.contact-section-2 .div-1{
+    padding-top: 10px;
+    padding-left: 60px;
+}
+.contact-section-2 .div-1 p{
+    width: 65%;
+}
+.contact-section-2 .div-2{
+    padding-left: 190px;
+}
+.contact-section-2 button{
+    margin-top: 5px;
+    padding: 12px 22px;
+    background-color: #0590ff;
+    color: white;
+    border: 1px solid #0590ff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+.contact-section-2 button:hover{
+    color: #0590ff;
+    background-color: white;
+    border: 1px solid #0590ff;
+    transition: 0.3s;    
+}
+.contact-section-2 h1{
+    font-weight: 300;
+    font-size: 30px;
+}
+.contact-section-2 p{
+    font-size: 14px;
+    color: #666666;
+}
+.map{
+    width: 450px;
+    height: 350px;
+}
+.contactus-form input{
+    padding: 7px 70px 7px 5px;
+}
+.contactus-form input:focus{
+    outline: none;
+    border: 2px solid #0590ff;
+}
+.contactus-form textarea{
+    padding-left: 5px;
+}
+.contactus-form textarea:focus{
+    border: 1px solid #0590ff;
+    outline: none;
+}
+.contact-section-2 .modal .btn-close{
+    background-color: white;
+    border: none;
+}
+.contact-section-2 .modal .btn-close:hover{
+    border: none;
+}
+.contact-section-2 .modal .modal-body{
+    color: green;
+}
+/* == Contact us end == */
+
+/* == Footer == */
+#footer{
+    margin-top: 150PX;
+}
+#footer .div-1{
+    padding-left: 50px;
+    padding-top: 67px;
+    height: 300px;
+    background-color: #272533;
+    color: white;
+}
+#footer .div-1 .ul{
+    margin-top: 25px;
+}
+#footer .div-1 li{
+    padding: 0 5px;
+    display: inline-block;
+    list-style: none;
+}
+#footer .div-1 li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: lightgray;
+}
+#footer .div-1 li a:hover{
+    transition: 0.2s;
+    color: gray;
+}
+#footer .div-1 h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+#footer .div-1 .pipeline{
+    color: lightgray;
+}
+#footer .div-2{
+    padding-top: 67px;
+    padding-left: 60px;
+    height: 300px;
+    background-color: #272533;
+    color: white;
+}
+#footer .div-2 .fa-map-marker{
+    padding: 10px 13px;
+    border-radius: 50px;
+    background-color: #0590ff;
+    margin-right: 20px;
+}
+#footer .div-2 .fa-phone{
+    padding: 10px 13px;
+    border-radius: 50px;
+    background-color: #0590ff;
+    margin-right: 20px;
+}
+#footer .div-2 .fa-envelope-open-o{
+    padding: 11px 11px;
+    border-radius: 50px;
+    background-color: #0590ff;
+    margin-right: 20px;
+}
+#footer .div-2 p{
+    font-size: 15px;
+    color: lightgray;
+}
+#footer .div-2 .item-1 p{
+    width: 200px;
+}
+#footer .div-2 .item-2 p{
+    padding-top: 5px;
+}
+#footer .div-2 .item-3{
+    margin: 16px 0 0 0;   
+}
+#footer .div-2 .item-3 p{
+    padding-top: 5px;
+    color: #0590ff;
+}
+#footer .div-3{
+    padding-top: 67px;
+    padding-left: 50px;
+    height: 300px;
+    background-color: #272533;
+    color: white;
+}
+#footer .div-3 h2{
+    color: #0590ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer .div-3 p{
+    color: gray;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 14.9px;
+}
+#footer .div-3 .fa{
+    margin: 0 3px;
+    padding: 12px 13px;
+    background-color: #0590ff;
+    border-radius: 3px;
+}
+#footer .div-3 .fa:hover{
+    transition: 0.3s;
+    background-color: #666666;
+}
+#footer .div-3 .fa-facebook{
+    margin: 0 3px;
+    padding: 12px 16px;
+    background-color: #0590ff;
+    border-radius: 3px;
+}
+/* #footer .div-3 h2{
+    font-size: ;
+} */
+
+#footer .footer-copyright{
+    font-size: 14px;
+    height: 30px;
+    background-color: #272533;
+    color: lightgray;
+    text-align: center;
+}
+
+/* == Footer end == */
+
+
+
+
+
+/* ==== Mediaquery ==== */
+
+@media (max-width:479px){
+
+    /* == Top Section == */
+    .top-section #logo-div{
+        width: 80%;
+        transform: translateX(5px);
+    }
+    #top-timing-sec{
+        transform: translateY(-20px);
+    }
+    #top-phone-sec{
+        transform: translateY(-20px);
+    }
+    #top-email-sec{
+        transform: translateY(-20px);
+    }
+    /* == Top Section end == */
+
+    /* == Header == */
+    .header{
+        margin-top: 30px;
+    }
+    .header h1{
+        transform: translateY(-15px);
+    }
+    .header h2{
+        transform: translateY(-15px);
+    }
+    .header p{
+        transform: translateY(-15px);
+        width: 90%;
+    }
+    .header button{
+        transform: translateY(-10px);
+    }
+    /* == Header end == */
+
+    /* == hit Counter == */
+    .hit-counter .item{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    /* == hit Counter end == */
+
+    /* == About us == */
+    #about-us{
+        padding: 20px;
+    }
+    #about-us img{
+        width: 100%;
+        height: 100%;
+    }
+    /* == About us == */
+
+    /* == Services == */
+    .services .row-2{
+        transform: translateY(-55px);
+    }
+    .services .item-div{
+        transform: translateX(-100px);
+        padding-left: 20px;
+    }
+    .services .para-div{
+        width: 120%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .services .para-div span{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    /* == Services end == */
+
+    /* == Testimonials == */
+    .testimonials{
+        margin-top: 100px;
+        height: 100%;
+        padding-bottom: 80px;
+    }
+    .testimonials #main-div{
+        padding-top: 20px;
+    }
+    .testimonials .div-1{
+        
+        padding-left: 11px;
+    }
+    .testimonials .div-3{
+        padding-right: 0px;
+        transform: translateX(-6px);
+    }
+    /* == Testimonials end == */
+
+    /* == Team == */
+    .team img{
+        margin-top: 50px;
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .team .div-1{
+        padding: 0 20px;
+    }
+    .team .team-contact-sec{
+        margin-top: 5   px;
+    }
+    /* == Team end == */
+
+    /* == Get in touch== */
+    .get-in-touch .row{
+        padding-top: 40px;
+    }
+    /* == Get in touch end == */
+
+    /* == Contact Section == */
+    .contact-section .main-para{
+        width: 80%;
+    }
+    .contact-section .row-div{
+        margin-top: 20px;
+    }
+    .contact-section .p-2{
+        font-size: 15px;
+    }
+    .contact-section-2 .div-1{
+        padding-left : 30px;
+    }
+    .contact-section-2 .div-1 p{
+        width: 100%;
+    }
+    .contact-section-2 .div-2{
+        margin-top: 50px;
+        padding: 0px;
+        padding-left: 21px;
+    }
+    .contact-section-2 .map{
+        width: 95%;
+        height: 170%;
+    }
+    /* == Contact Section end == */
+
+    /* == Footer == */
+    #footer {
+        margin-top: 300px;
+    }
+    #footer .div-1{
+        text-align: center;
+        padding-left: 0;
+        height: 250px;
+    }
+    #footer .div-2{
+        text-align: center;
+        height: 250px;
+        padding-top: 30px;
+        padding-left: 90px;
+    }
+    #footer .div-2 .item-2 p{
+        margin-left: 40px;
+    }
+    #footer .div-3{
+        height: 270px;
+        padding-top: 50px;
+        padding-left: 0;
+        text-align: center;
+    }
+    #footer .div-3 p{
+        margin: auto;
+        width: 330px;
+    }
+    #footer .div-3 .social-footer-div{
+        padding-top: 30px;
+    }
+    /* == Footer end == */
+
+}
+
+
+@media (min-width:480px) and (max-width:767px){
+
+    /* == Top Section == */
+    .top-section #logo-div{
+        width: 80%;
+        transform: translateX(5px);
+    }
+    /* == Top Section end == */
+
+    /* == Header == */
+    .header{
+        margin-top: 50px;
+    }
+    .header h1{
+        transform: translateY(-15px);
+    }
+    .header h2{
+        transform: translateY(-15px);
+    }
+    .header p{
+        transform: translateY(-15px);
+        width: 90%;
+    }
+    .header button{
+        transform: translateY(-10px);
+    }
+    /* == Header end == */
+
+    /* == hit Counter == */
+    .hit-counter .item{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    /* == hit Counter end == */
+
+      /* == About us == */
+    #about-us{
+        padding: 20px;
+    }
+    #about-us img{
+        width: 100%;
+        height: 100%;
+    }
+    /* == About us == */
+
+    /* == Services == */
+    .services .row-2{
+        transform: translateY(-55px);
+    }
+    .services .item-div{
+        transform: translateX(-100px);
+        padding-left: 20px;
+    }
+    .services .para-div{
+        width: 120%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .services .para-div span{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    /* == Services end == */
+
+    /* == Testimonials == */
+    .testimonials{
+        margin-top: 100px;
+        height: 100%;
+        padding-bottom: 80px;
+    }
+    .testimonials #main-div{
+        padding-top: 20px;
+    }
+    .testimonials .div-1{
+        
+        padding-left: 11px;
+    }
+    .testimonials .div-3{
+        padding-right: 0px;
+        transform: translateX(-6px);
+    }
+    /* == Testimonials end == */
+
+    /* == Team == */
+    .team img{
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    /* == Team end == */
+
+    /* == Contact Section == */
+    .contact-section-2 .div-2{
+        margin-top: 50px;
+        padding-left: 8%;
+    }
+    .contact-section-2 .map{
+        width: 95%;
+        height: 190%;
+    }
+    /* == Contact Section == */
+
+    /* == Footer == */
+    #footer {
+        margin-top: 300px;
+    }
+    #footer .div-1{
+        text-align: center;
+        padding-left: 0;
+        height: 250px;
+    }
+    #footer .div-2{
+        text-align: center;
+        height: 250px;
+        padding-top: 30px;
+        padding-left: 30%;
+    }
+    #footer .div-2 .item-2 p{
+        margin-left: 40px;
+    }
+    #footer .div-3{
+        height: 270px;
+        padding-top: 50px;
+        padding-left: 0;
+        text-align: center;
+    }
+    #footer .div-3 p{
+        margin: auto;
+        width: 330px;
+    }
+    #footer .div-3 .social-footer-div{
+        padding-top: 30px;
+    }
+    /* == Footer end == */
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+
+    
+    /* == Top Section == */
+    .top-section #logo-div{
+        width: 80%;
+        transform: translateX(5px);
+    }
+    #top-timing-sec{
+        padding-left: 25px;
+    }
+    #top-phone-sec{
+        padding-left: 25px;
+    }
+    #top-email-sec{
+        padding-left: 25px;
+    }
+    /* == Top Section end == */
+
+    /* == Header == */
+    .header{
+        margin-top: 50px;
+    }
+    .header h1{
+        transform: translateY(-15px);
+        transform: translateX(-40px);
+    }
+    .header h2{
+        transform: translateY(-15px);
+        transform: translateX(-40px);
+    }
+    .header p{
+        transform: translateY(-15px);
+        transform: translateX(-40px);
+        width: 90%;
+    }
+    .header button{
+        transform: translateY(-10px);
+        transform: translateX(-40px);
+    }
+    /* == Header end == */
+
+
+    /* == About us == */
+    #about-us{
+        padding: 20px;
+    }
+    #about-us img{
+        width: 100%;
+        height: 100%;
+    }
+    /* == About us == */
+
+    /* == Services == */
+    .services .row-2{
+        transform: translateY(-55px);
+    }
+    .services .item-div{
+        transform: translateX(-100px);
+        padding-left: 20px;
+    }
+    .services .para-div{
+        width: 120%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .services .para-div span{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    /* == Services end == */
+
+    /* == Team == */
+    .team img{
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    /* == Team end == */
+
+    /* == Contact Section == */
+    .contact-section-2 .div-2{
+        padding-left: 8%;
+    }
+    .contact-section-2 .map{
+        margin-top: 20px;
+        width: 95%;
+        height: 80%;
+    }
+    /* == Contact Section end == */
+
+    /* == Footer == */
+    #footer .div-1{
+        padding-top: 60px;
+        padding-left: 16px;
+    }
+    #footer .div-1 h1{
+        font-size: 33px;
+    }
+    #footer .div-1 li a{
+        font-size: 14px;
+    }
+    #footer .div-2{
+        padding-top: 60px;
+        padding-left: 16px;
+    }
+    #footer .div-2 .fa-map-marker{
+        padding: 9px 11px;
+    }
+    #footer .div-2 .fa-phone{
+        padding: 9px 11px;
+    }
+    #footer .div-2 .fa-envelope-open-o{
+        padding: 10px 10px;
+    }
+    #footer .div-2 .item-1 p{
+        font-size: 14px;
+    }
+    #footer .div-2 .item-2 p{
+        font-size: 14px;
+    }
+    #footer .div-2 .item-3 p{
+        font-size: 14px;
+    }
+    #footer .div-3{
+        padding-top: 60px;
+    }
+    #footer .div-3 p{
+        font-size: 14px;
+    }
+    #footer .div-3 .fa{
+        padding: 11px 12px;
+    }
+    #footer .div-3 .fa-facebook{
+        padding: 10.9px 15px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1169px){
+    /* == Navbar == */
+    .navbar ul li{
+        margin: 0px;
+        padding: 0 15px;
+    }
+    /* == Navbar end == */
+
+    /* == Top Section == */
+    .top-section #logo-div{
+        width: 30%;
+        transform: translateX(5px);
+    }
+    #top-timing-sec{
+        padding: 0;
+        width: 18%;
+    }
+    #top-phone-sec{
+        padding-left: 0px;
+        width: 18%;
+    }
+    #top-email-sec{
+        padding-left: 0px;
+    }
+    /* == Top Section end == */
+
+    /* == Header == */
+    .header h1{
+        transform: translateY(-15px);
+        transform: translateX(-10px);
+    }
+    .header h2{
+        transform: translateY(-15px);
+        transform: translateX(-10px);
+    }
+    .header p{
+        transform: translateY(-15px);
+        transform: translateX(-10px);
+        width: 90%;
+    }
+    .header button{
+        transform: translateY(-10px);
+        transform: translateX(-10px);
+    }
+    /* == Header end == */
+
+    /* == About us == */
+    #about-us{
+        padding: 20px;
+    }
+    #about-us img{
+        width: 100%;
+        height: 100%;
+    }
+    /* == About us == */
+
+    /* == Services == */
+    .services .row-2{
+        transform: translateY(-55px);
+    }
+    .services .item-div{
+        transform: translateX(-100px);
+        padding-left: 20px;
+    }
+    .services .para-div{
+        width: 120%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .services .para-div span{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    /* == Services end == */
+
+    /* == Team == */
+    .team img{
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    /* == Team end == */
+
+    /* == Contact Section == */
+    .contact-section-2 .div-2{
+        padding-left: 8%;
+    }
+    /* == Contact Section end == */
+}
+
